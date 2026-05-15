@@ -1,4 +1,4 @@
-$transition-time: 0.3s;
+@use 'variables';
 
 .card {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ $transition-time: 0.3s;
 
   font-size: 12px;
   line-height: 18px;
-  transition: transform $transition-time;
+  transition: transform variables.$transition-time;
 
   &:hover {
     transform: scale(1.2);
@@ -99,6 +99,7 @@ $transition-time: 0.3s;
     background-color: #00acdc;
     border-radius: 5px;
     border: none;
+    transition: color $transition-time;
 
     color: $white-color;
     text-transform: uppercase;

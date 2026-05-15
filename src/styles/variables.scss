@@ -2,6 +2,7 @@ $indent-bottom: 16px;
 $font-weight-bold: 700;
 $line-height-default: 14px;
 $white-color: #fff;
+$transition-time: 0.3s;
 
 @mixin stars-parameters() {
   background-position: center;
